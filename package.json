@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "students-server.js",
+  "scripts": {
+    "start": "node students-server.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/juliennebay/studentsList.git"
