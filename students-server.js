@@ -10,9 +10,8 @@ const FILES = {
 };
 
 const server = http.createServer((request, response) => {
-  if (request.url === "/studentApi") {
-    const studentsFile = fs.readFileSync("./studentsApi.json");
-    const allStudents = JSON.parse(studentsFile);
+  if (request.url === "/students") {
+    const allStudents = require("./students.json");
     response.writeHead(200, { "Content-Type": "application/json" });
     response.end(JSON.stringify(allStudents), "utf-8");
   } else {

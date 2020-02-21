@@ -113,7 +113,7 @@ function togglePlusMinus(event) {
   }
 }
 
-fetch("./studentApi").then(response => {
+fetch("./students").then(response => {
   response.json().then(studentsObj => {
     studentsObj.students.forEach(student => {
       const studentContainerDiv = document.createElement("div");
