@@ -1,0 +1,16 @@
+{
+  "name": "students-list-search",
+  "version": "1.0.0",
+  "description": "",
+  "main": "students-server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliennebay/studentsList.git"
+  },
+  "author": "JB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juliennebay/studentsList/issues"
+  },
+  "homepage": "https://github.com/juliennebay/studentsList#readme"
+}
