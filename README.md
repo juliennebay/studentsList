@@ -1,5 +1,5 @@
 # Students list
-This app fetches API containing information about different students. With this, a list of students is created. 
+This app fetches API containing information about different students, and creates a list. 
 
 Users can expand each student's info for more detail, and add tags under each student if needed.
 
